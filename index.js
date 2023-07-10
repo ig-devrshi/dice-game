@@ -21,3 +21,7 @@ else if(random<random2){
 else {
     document.querySelector("h1").innerHTML=("The Game is tied!");
 }
+
+function reload(){
+    window.location.reload();
+}
